@@ -710,9 +710,9 @@
             <div style="font-size: 0.8rem; color: #94a3b8; text-transform: uppercase; font-weight: 700;">Repositorio
               Oficial</div>
             <div style="font-family: 'JetBrains Mono', monospace; font-size: 0.95rem; font-weight: 600;">
-              AlexSanderLopezOrcko/Practica4-Jueves</div>
+              AlexSanderLopezOrcko/practica4-viernes</div>
           </div>
-          <a href="https://github.com/AlexSanderLopezOrcko/Practica4-Jueves" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/AlexSanderLopezOrcko/practica4-viernes" target="_blank" rel="noopener noreferrer"
             class="repo-link-btn">
             Abrir en GitHub ↗
           </a>
@@ -730,8 +730,8 @@
           </div>
           <div class="terminal-body">
             <span class="cmd-line"><span class="cmd-prompt">$</span>git clone
-              https://github.com/AlexSanderLopezOrcko/Practica4-Jueves.git</span>
-            <span class="cmd-line"><span class="cmd-prompt">$</span>cd Practica4-Jueves</span>
+              https://github.com/AlexSanderLopezOrcko/practica4-viernes.git</span>
+            <span class="cmd-line"><span class="cmd-prompt">$</span>cd practica4-viernes</span>
           </div>
         </div>
 
@@ -779,7 +779,7 @@
         <h3 class="subheading">Estructura inicial</h3>
         <p>El repositorio contará con una carpeta para cada ejercicio:</p>
 
-        <pre class="tree-box">Practica4-Jueves/
+        <pre class="tree-box">practica4-viernes/
 ├── ejercicio1/
 ├── ejercicio2/
 ├── ejercicio3/
@@ -1049,13 +1049,12 @@
         <p>Consumir una API REST utilizando JavaScript y mostrar la información obtenida en una interfaz previamente
           preparada.</p>
 
-        <p>En este ejercicio se proporcionarán los archivos HTML y CSS:</p>
+        <p>En este ejercicio se proporcionará el archivo HTML:</p>
         <pre class="tree-box">ejercicio5/
 ├── index.html
-├── style.css
 └── script.js</pre>
         <p>
-          El diseño de la interfaz ya estará preparado. No es necesario modificar el CSS. El HTML tendrá los elementos
+          El diseño de la interfaz ya estará preparado. El HTML tendrá los elementos
           necesarios y sus respectivos id.
         </p>
 
@@ -1068,7 +1067,8 @@
         <p>El trabajo principal consiste en implementar la funcionalidad mediante JavaScript.</p>
 
         <h3 class="subheading">API</h3>
-        <p>Se utilizará la PokeAPI (<a href="https://pokeapi.co/" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600;">https://pokeapi.co/</a>):</p>
+        <p>Se utilizará la PokeAPI (<a href="https://pokeapi.co/" target="_blank"
+            style="color: #3b82f6; text-decoration: none; font-weight: 600;">https://pokeapi.co/</a>):</p>
         <div class="terminal-box">
           <div class="terminal-header">
             <div class="terminal-dots">
@@ -1096,7 +1096,6 @@
           <li>Realizar la petición desde JavaScript.</li>
           <li>Utilizar los id proporcionados en el HTML.</li>
           <li>Mostrar dinámicamente la información obtenida.</li>
-          <li>No modificar el CSS proporcionado.</li>
           <li>No es necesario crear nuevamente la estructura HTML.</li>
           <li>El objetivo principal es practicar el consumo de una API mediante JavaScript.</li>
         </ul>
@@ -1115,12 +1114,14 @@
 
       <section id="ejercicio-6" class="card-section">
         <div class="section-header">
-          <h2 class="section-title">Ejercicio 6 — PokeAPI + buscador</h2>
+          <h2 class="section-title">Ejercicio 6 — Rick and Morty API + buscador</h2>
           <span class="points-badge">20 pts</span>
         </div>
 
         <h3 class="subheading">Objetivo</h3>
-        <p>Utilizar JavaScript para consumir la PokeAPI (<a href="https://pokeapi.co/" target="_blank" style="color: #3b82f6; text-decoration: none; font-weight: 600;">https://pokeapi.co/</a>) y buscar un Pokémon específico por su nombre.</p>
+        <p>Utilizar JavaScript para consumir la API de Rick and Morty (<a href="https://rickandmortyapi.com/api/character/" target="_blank"
+            style="color: #3b82f6; text-decoration: none; font-weight: 600;">https://rickandmortyapi.com/api/character/</a>) y buscar un
+          personaje específico por su nombre.</p>
 
         <p>Al igual que en el ejercicio anterior, se proporcionará una interfaz HTML y CSS previamente preparada:</p>
         <pre class="tree-box">ejercicio6/
@@ -1131,7 +1132,7 @@
 
         <h3 class="subheading">Resultado Esperado</h3>
         <div class="image-preview-card">
-          <img src="./assets/ejercicio6.png" alt="Resultado esperado del Ejercicio 6" class="preview-image">
+          <img src="./assets/ejercicio6v.png" alt="Resultado esperado del Ejercicio 6" class="preview-image">
           <span class="image-tag">[RESULTADO ESPERADO DEL EJERCICIO 6]</span>
         </div>
 
@@ -1139,20 +1140,23 @@
 
         <div class="example-preview-box">
           <strong>Por ejemplo:</strong><br>
-          Nombre: <span style="background: #ffffff; border: 1px solid #cbd5e1; padding: 2px 8px; border-radius: 4px;">[ Pikachu ]</span> &nbsp;
-          <span style="background: #0284c7; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">[ FILTRAR ]</span>
+          Nombre: <span style="background: #ffffff; border: 1px solid #cbd5e1; padding: 2px 8px; border-radius: 4px;">[
+            Rick ]</span> &nbsp;
+          <span style="background: #0284c7; color: white; padding: 2px 8px; border-radius: 4px; font-weight: bold;">[
+            FILTRAR ]</span>
         </div>
 
         <p>
-          Al anotar el nombre del Pokémon y presionar el botón de filtro, se deberá consultar la API y mostrar la imagen del Pokémon encontrado junto con algunos datos que devuelva la API.
+          Al anotar el nombre del personaje y presionar el botón de filtro, se deberá consultar la API y mostrar la imagen
+          del personaje encontrado junto con algunos datos que devuelva la API.
         </p>
 
         <h3 class="subheading">Condiciones</h3>
         <ul class="styled-list">
           <li>Utilizar fetch.</li>
-          <li>Utilizar la PokeAPI.</li>
+          <li>Utilizar la API de Rick and Morty.</li>
           <li>Utilizar un evento de click para el botón de búsqueda.</li>
-          <li>Mostrar la imagen y datos del Pokémon dinámicamente.</li>
+          <li>Mostrar la imagen y datos del personaje dinámicamente.</li>
           <li>Utilizar JavaScript para manipular el HTML existente.</li>
           <li>No modificar el CSS proporcionado.</li>
         </ul>
@@ -1162,7 +1166,7 @@
           <div class="alert-help-content">
             <p>Para obtener el texto ingresado en el input puedes utilizar:</p>
             <div style="margin: 0.35rem 0;"><span class="code-chip">input.value</span></div>
-            <p>Para consumir la API y buscar el Pokémon por nombre necesitarás:</p>
+            <p>Para consumir la API y buscar el personaje por nombre necesitarás:</p>
             <div style="margin: 0.35rem 0;"><span class="code-chip">fetch()</span></div>
           </div>
         </div>
@@ -1205,8 +1209,8 @@
           <li>No modificar el trabajo de otros estudiantes.</li>
           <li>Los ejercicios de HTML deben resolverse utilizando HTML.</li>
           <li>Los ejercicios de JavaScript deben resolverse utilizando JavaScript.</li>
-          <li>En los ejercicios 5 y 6, el HTML y CSS proporcionados forman parte de la plantilla.</li>
-          <li>No modificar el CSS de los ejercicios 5 y 6.</li>
+          <li>En los ejercicios 5 y 6, el HTML proporcionado forma parte de la plantilla.</li>
+          <li>No modificar el CSS del ejercicio 6.</li>
           <li>Las ayudas proporcionadas son únicamente orientativas.</li>
           <li>Se evaluará principalmente la correcta aplicación de los conceptos vistos durante las clases.</li>
         </ul>
@@ -1254,7 +1258,7 @@
               </tr>
               <tr>
                 <td><strong>Ejercicio 6</strong></td>
-                <td>PokeAPI + eventos + filtros</td>
+                <td>Rick and Morty API + eventos + filtros</td>
                 <td style="text-align: right; font-weight: 700; color: var(--primary);">20 pts</td>
               </tr>
               <tr class="total-row">
